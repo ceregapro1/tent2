@@ -349,7 +349,7 @@
         height: 433px;
     }
 
-    .modal_catalog {
+    .modal_catalog-wrap {
         flex-direction: column;
     }
     .modal_catalog-left-top {
