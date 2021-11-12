@@ -913,7 +913,7 @@ header .container {
   border-style: solid;
 }
 .popover.top .arrow:after {
-  bottom: 2px;
+  bottom: 3px;
   margin-left: -10px;
   border-top-color: #ffcb00;
   border-bottom-width: 0;
@@ -922,8 +922,6 @@ header .container {
   border-width: 10px;
   content: "";
 }
-
-
 .popover-content {
   padding: 29px;
   background-color: #ffcb00;
@@ -932,6 +930,37 @@ header .container {
   font-size: 14px;
   font-weight: 400;
   width: 320px;
+}
+
+.bolun_title {
+  font-family: "Montserrat";
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #1c1f1f;
+}
+.bolun_phone a {
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #1c1f1f;
+}
+.bolun_name {
+  font-family: "Montserrat";
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #1c1f1f;
+}
+.bolun_email {
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #1c1f1f; 
 }
 
 

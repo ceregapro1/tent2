@@ -618,7 +618,7 @@
 		        // Создание метки с пользовательским макетом балуна.
 		        myPlacemark = window.myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
 		           /* balloonHeader: '+7 905 989-99-57',*/
-		            balloonContent: '<div class="bolun_phone">ООО "Строй Энд Пак"<br>Телефон: <a href="tel:84993981026">8 (499) 398-10-26</a></div>E-mail: <a href="mailto::polimerina1@yandex.ru">polimerina1@yandex.ru</a><br>Адрес склада: <br>г. Москва, ул. Адмирала Макарова, д.2, стр. 21<br>Адрес производства: <br>г. Владимир, Промышленный проезд, д. 18'
+		            balloonContent: '<div class="bolun_phone"><span class="bolun_title">ООО "Строй Энд Пак"</span><br><span class="bolun_name">Телефон:</span> <a href="tel:84993981026">8 (499) 398-10-26</a></div><span class="bolun_name">E-mail:</span> <a href="mailto::polimerina1@yandex.ru" class="bolun_email">polimerina1@yandex.ru</a><br><span class="bolun_name">Адрес склада:</span> <br>г. Москва, ул. Адмирала Макарова, д.2, стр. 21<br><span class="bolun_name">Адрес производства:</span> <br>г. Владимир, Промышленный проезд, д. 18</div>'
 		        }, {
 		            balloonShadow: false,
 		            balloonLayout: MyBalloonLayout,
@@ -632,6 +632,9 @@
 
 		    	myMap.geoObjects.add(myPlacemark);
 		    	myPlacemark.balloon.open();
+
+                var position = myMap.getGlobalPixelCenter();
+                myMap.setGlobalPixelCenter([ position[0], position[1] - 100 ]);
             })
         })
     </script>
