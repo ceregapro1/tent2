@@ -87,9 +87,6 @@
     .header_subtitle {
         font-size: 22px;
     }
-    br {
-        display: none;
-    }
     .header_banner {
         bottom: 110px;
         right: 34px;
@@ -186,7 +183,7 @@
     .application_item-img {
         width: 103px;
         height: 103px;
-        margin: 0 auto;
+        margin: 0;
     }
     .application_item-img img {
         outline-offset: 5px;

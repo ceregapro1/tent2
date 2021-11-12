@@ -250,8 +250,8 @@
         font-size: 18px;
         line-height: 22px;
     }
-    .catalog {
-        padding-top: 17px;
+    .application {
+        padding-bottom: 50px;
     }
     .catalog_title {
         margin-bottom: 43px;
@@ -357,6 +357,9 @@
     }
     .contacts_advantages-img {
         height: 433px;
+    }
+    .questions {
+        padding: 50px 0 50px;
     }
 
     .modal_catalog-wrap {
