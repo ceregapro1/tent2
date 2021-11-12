@@ -34,11 +34,13 @@
         font-size: 13px;
     }
     .header_mode {
-        width: 210px;
         margin-left: 0;
         margin-top: -3px;
         font-size: 13px;
         line-height: 16px;
+    }
+    .header_mode br {
+        display: block;
     }
     .header_title {
         font-size: 22px;
@@ -93,7 +95,7 @@
     }
     .header_image {
         width: 183px;
-        height: 128px;
+        height: auto;
         bottom: 82px;
         right: 12px;
     }
@@ -148,7 +150,7 @@
     }
     .applicatiom_img {
         width: 357px;
-        height: 257px;
+        height: auto;
         bottom: 305px;
         right: -126px;
     }
@@ -164,17 +166,11 @@
     .catalog_title {
         margin-bottom: 30px;
     }
-    .catalog_items-top .catalog_item-img img {
-        height: 193px;
-    }
     .catalog_items-top .catalog_item-text, 
     .catalog_items-bottom .catalog_item-text {
         font-size: 18px;
         line-height: 21px;
         padding: 6px 14px;
-    }
-    .catalog_items-bottom .catalog_item-img img {
-        height: 107px;
     }
     .catalog_items-top {
         margin-bottom: 12px;
@@ -235,7 +231,7 @@
         height: 289px;
     }
     .delivery {
-        padding: 95px 0 58px;
+        padding: 55px 0 58px;
     }
     .delivery_title {
         margin-left: 97px;
@@ -281,7 +277,8 @@
         line-height: 26px;
     }
     .questions {
-        padding: 61px 0 30px;
+        margin-top: 40px;
+        padding: 21px 0 30px;
     }
     .questions_form-wrap {
         flex-direction: column;
@@ -296,7 +293,7 @@
         margin-bottom: 8px;
     }
     .questions {
-        background-position: center 74px;
+        background-position: center 0px;
     }
     .questions_btn {
         margin-right: 0px;
@@ -351,6 +348,10 @@
         width: calc(100%/2 - 14px);
         margin-left: 14px;
         margin-bottom: 12px;
+    }
+    
+    .modal_catalog {
+        padding: 20px;
     }
 
 

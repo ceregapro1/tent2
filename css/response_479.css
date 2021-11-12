@@ -50,6 +50,9 @@
         max-width: 100%;
         margin-bottom: 180px;
     }
+    header {
+        background-position: -240px 0;
+    }
     .header_title-little {
         align-items: center;
     }
@@ -207,6 +210,9 @@
     .catalog_items-bottom .catalog_item-img img {
         height: 193px;
     }
+    .catalog_items-top .catalog_item-img img {
+        height: 193px;
+    }
     .selection {
         padding: 39px 0 56px;
     }
@@ -314,10 +320,6 @@
     }
     footer {
         padding: 24px 0 21px;
-    }
-
-    .modal_catalog {
-        padding: 20px;
     }
     .modal_catalog-title {
         font-size: 24px;

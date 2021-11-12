@@ -1,3 +1,17 @@
+@media (max-width: 1520px){
+    
+    .applicatiom_img {
+        position: absolute;
+        width: 301px;
+        height: auto;
+        bottom: 172px;
+        right: -93px;
+        z-index: -1;
+    }
+
+}
+
+
 
 @media (max-width: 1283px){
     
@@ -13,6 +27,14 @@
     }
     .delivery_title br {
         display: none;
+    }
+    .applicatiom_img {
+        position: absolute;
+        width: 301px;
+        height: auto;
+        bottom: 172px;
+        right: -93px;
+        z-index: -1;
     }
 
 }
@@ -56,7 +78,7 @@
     }
     .header_image {
         width: 428px;
-        height: 312px;
+        height: auto;
         bottom: 17px;
         right: 18px;
     }
@@ -101,12 +123,6 @@
     .catalog {
         padding-top: 32px;
     }
-    .catalog_items-top .catalog_item-img img {
-        height: 403px;
-    }
-    .catalog_items-bottom .catalog_item-img img {
-        height: 223px;
-    }
     .selection {
         padding: 87px 0 91px;
     }
@@ -128,7 +144,7 @@
         justify-content: center;
     }
     .delivery {
-        padding: 200px 0 114px;
+        padding: 160px 0 114px;        
     }
     .delivery_title {
         text-align: start;
@@ -145,8 +161,8 @@
     }
     .questions_image {
         width: 230px;
-        height: 289px;
-        top: 22px;
+        height: auto;
+        top: 55px;
         right: -103px;
     }
     .map_wrap {
@@ -192,7 +208,7 @@
     }
     .header_image {
         width: 344px;
-        height: 283px;
+        height: auto;
         bottom: 17px;
         right: 18px;
     }
@@ -240,17 +256,11 @@
     .catalog_title {
         margin-bottom: 43px;
     }
-    .catalog_items-top .catalog_item-img img {
-        height: 309px;
-    }
     .catalog_items-top .catalog_item-text, 
     .catalog_items-bottom .catalog_item-text {
         font-size: 21px;
         line-height: 21px;
         padding: 8px 25px;
-    }
-    .catalog_items-bottom .catalog_item-img img {
-        height: 171px;
     }
     .selection {
         padding: 84px 0 97px;
@@ -290,7 +300,7 @@
         height: 463px;
     }
     .delivery {
-        padding: 156px 0 109px;
+        padding: 116px 0 109px;
     }
     .delivery_title {
         margin-left: 110px;
@@ -313,7 +323,7 @@
         line-height: 27px;
     }
     .questions_form input {
-        width: 259px;
+        width: 350px;
         margin-left: 30px;
     }
     .questions_form .column {
@@ -375,6 +385,9 @@
     }
     .modal_catalog-warning {
         margin-bottom: 30px;
+    }
+    .questions {
+        margin-top: 40px;
     }
 
 
