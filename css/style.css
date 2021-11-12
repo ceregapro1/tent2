@@ -869,6 +869,61 @@ header .container {
   box-shadow: 10px 17px 20px 0px rgba(0,0,0,0.05);
   border-radius: 12px;
 }
+.popover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1010;
+  width: 320px;
+  padding: 1px;
+  text-align: left;
+  white-space: normal;
+  border-radius: 4px;
+}
+.popover .close {
+  position: absolute;
+  right: 5px;
+  top: 1px;
+}
+.close {
+  float: right;
+  font-size: 20px;
+  line-height: 20px;
+  color: #fff;
+  text-shadow: 0 0 0 #fff;
+  text-decoration: none;
+}
+.popover.top .arrow {
+  bottom: -11px;
+  left: 50%;
+  margin-left: -11px;
+  border-top-color: #999;
+    border-top-color: rgb(255 255 255 / 25%);
+  border-bottom-width: 0;
+}
+.popover .arrow {
+  border-width: 11px;
+}
+.popover .arrow, .popover .arrow:after {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+.popover.top .arrow:after {
+  bottom: 2px;
+  margin-left: -10px;
+  border-top-color: #ffcb00;
+  border-bottom-width: 0;
+}
+.popover .arrow:after {
+  border-width: 10px;
+  content: "";
+}
+
+
 .popover-content {
   padding: 29px;
   background-color: #ffcb00;
@@ -876,17 +931,10 @@ header .container {
   color: #1c1f1f;
   font-size: 14px;
   font-weight: 400;
-  width: 385px;
-  height: 226px;
+  width: 320px;
 }
-.popover.top .arrow {
-  bottom: -11px;
-  left: 50%;
-  margin-left: -11px;
-  border-top-color: #ffcb00;
-  border-top-color: #ffcb00;
-  border-bottom-width: 0;
-}
+
+
 
 
 

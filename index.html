@@ -410,56 +410,56 @@
 
 
 
-                <section class="modal modal_catalog" id="callback_modal1" style="display: none;">
-                    <div class="modal_catalog-wrap">
-                        <div class="modal_catalog-left">
-                            <div class="modal_catalog-left-top">
-                                <img src="image/modal_catalog1.jpg" alt="">
+
+
+                <section class="modal modal_catalog" id="callback_modal1">
+                    <div class="modal_catalog-left">
+                        <div class="modal_catalog-left-top">
+                            <img src="image/modal_catalog1.jpg" alt="">
+                        </div>
+                        <div class="modal_catalog-left-bottom">
+                            <div class="modal_catalog-left-item">
+                                <img src="image/modal_catalog2.jpg" alt="">
                             </div>
-                            <div class="modal_catalog-left-bottom">
-                                <div class="modal_catalog-left-item">
-                                    <img src="image/modal_catalog2.jpg" alt="">
-                                </div>
-                                <div class="modal_catalog-left-item">
-                                    <img src="image/modal_catalog3.jpg" alt="">
-                                </div>
-                                <div class="modal_catalog-left-item">
-                                    <img src="image/modal_catalog4.jpg" alt="">
-                                </div>
+                            <div class="modal_catalog-left-item">
+                                <img src="image/modal_catalog3.jpg" alt="">
+                            </div>
+                            <div class="modal_catalog-left-item">
+                                <img src="image/modal_catalog4.jpg" alt="">
                             </div>
                         </div>
-                        <div class="modal_catalog-right">
-                            <div class="modal_catalog-title">Тарпаулиновые тенты</div>
-                            <div class="modal_catalog-subtitle">Всегда в наличии тенты:</div>
-                            <div class="modal_catalog-text">120гр (эконом), 120гр, 120гр (утеплённый), 150гр,<br> 180гр, 180гр (огнеупорный), 180гр (утеплённый), 230гр</div>
-                            <div class="modal_catalog-subtitle">Доступные размеры:</div>
-                            <div class="modal_catalog-text">от 2м*3м до 20м*30м</div>
-                            <div class="modal_catalog-warning">
-                                <div class="modal_catalog-warning-icon">
-                                    <img src="image/warning.png" alt="">
-                                </div>
-                                <div class="modal_catalog-warning-text">Изготовим тент любого размера и плотности под ваши нужды</div>
-                            </div>
-                            <div class="modal_catalog-consult"><span>Проконсультируем</span> по всем вопросам и <span>рассчитаем стоимость</span></div>
-                            <form action="" class="form" id="feedback-form-6">
-                                <div class="line">
-                                    <div class="field">
-                                        <input type="text" name="name" value="" class="input required"  required placeholder="Ваше имя">
-                                    </div>
-                                    <div class="field">
-                                        <input type="tel" name="phone" value="" class="input required" required placeholder="Ваш телефон">
-                                    </div> 
-                                </div>   
-                                <div class="line-bottom">
-                                    <button type="submit" class="submit_btn modal_btn">
-                                        <span>Отправить</span>
-                                    </button>
-                                    <div class="modal_politic">Нажимая на кнопку, я даю свое согласие на обработку моих персональных данных, а также соглашаюсь с <a href="#">офертой</a> и <a href="#">политикой конфиденциальности</a></div>            
-                                </div>
-                            </form>    
-                        </div>    
                     </div>
-                             
+
+                    <div class="modal_catalog-right">
+                        <div class="modal_catalog-title">Тарпаулиновые тенты</div>
+                        <div class="modal_catalog-subtitle">Всегда в наличии тенты:</div>
+                        <div class="modal_catalog-text">120гр (эконом), 120гр, 120гр (утеплённый), 150гр,<br> 180гр, 180гр (огнеупорный), 180гр (утеплённый), 230гр</div>
+                        <div class="modal_catalog-subtitle">Доступные размеры:</div>
+                        <div class="modal_catalog-text">от 2м*3м до 20м*30м</div>
+                        <div class="modal_catalog-warning">
+                            <div class="modal_catalog-warning-icon">
+                                <img src="image/warning.png" alt="">
+                            </div>
+                            <div class="modal_catalog-warning-text">Изготовим тент любого размера и плотности под ваши нужды</div>
+                        </div>
+                        <div class="modal_catalog-consult"><span>Проконсультируем</span> по всем вопросам и <span>рассчитаем стоимость</span></div>
+                        <form action="" class="form" id="feedback-form-6">
+                            <div class="line">
+                                <div class="field">
+                                    <input type="text" name="name" value="" class="input required"  required placeholder="Ваше имя">
+                                </div>
+                                <div class="field">
+                                    <input type="tel" name="phone" value="" class="input required" required placeholder="Ваш телефон">
+                                </div> 
+                            </div>   
+                            <div class="line-bottom">
+                                <button type="submit" class="submit_btn modal_btn">
+                                    <span>Отправить</span>
+                                </button>
+                                <div class="modal_politic">Нажимая на кнопку, я даю свое согласие на обработку моих персональных данных, а также соглашаюсь с <a href="#">офертой</a> и <a href="#">политикой конфиденциальности</a></div>            
+                            </div>
+                        </form>    
+                    </div>         
                 </section>
                 
                 
@@ -498,7 +498,7 @@
 		                '<a class="close" href="#">&times;</a>' +
 		                '<div class="arrow"></div>' +
 		                '<div class="popover-inner">' +
-		                '$[[options.contentLayout observeSize minWidth=250 maxWidth=250 maxHeight=350]]' +
+		                '$[[options.contentLayout observeSize minWidth=250 maxWidth=320 maxHeight=350]]' +
 		                '</div>' +
 		                '</div>', {
 		                /**
@@ -611,14 +611,14 @@
                     
 		        // Создание вложенного макета содержимого балуна.
 		        MyBalloonContentLayout = ymaps.templateLayoutFactory.createClass(
-		            '<h3 class="popover-title">ООО "Строй Энд Пак"</h3>' +
+		            '<h3 class="popover-title"></h3>' +
 		                '<div class="popover-content">$[properties.balloonContent]</div>'
 		        ),
 
 		        // Создание метки с пользовательским макетом балуна.
 		        myPlacemark = window.myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
 		           /* balloonHeader: '+7 905 989-99-57',*/
-		            balloonContent: '<div class="bolun_phone">Телефон: <a href="tel:84993981026">8 (499) 398-10-26</a></div>E-mail: <a href="mailto::polimerina1@yandex.ru">polimerina1@yandex.ru</a><br>Адрес склада: <br>г. Москва, ул. Адмирала Макарова, д.2, стр. 21<br>Адрес производства: <br>г. Владимир, Промышленный проезд, д. 18'
+		            balloonContent: '<div class="bolun_phone">ООО "Строй Энд Пак"<br>Телефон: <a href="tel:84993981026">8 (499) 398-10-26</a></div>E-mail: <a href="mailto::polimerina1@yandex.ru">polimerina1@yandex.ru</a><br>Адрес склада: <br>г. Москва, ул. Адмирала Макарова, д.2, стр. 21<br>Адрес производства: <br>г. Владимир, Промышленный проезд, д. 18'
 		        }, {
 		            balloonShadow: false,
 		            balloonLayout: MyBalloonLayout,
